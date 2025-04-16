@@ -32,6 +32,10 @@ impl LexAnalyser<'_> {
 
     //fn token_list(&self) {
     //    separar em linhas, e p cada linha filtrar usando as regras e usar o tokenize p cada instancia
+
+        for line in self.code {
+            
+        }
     //}
 
     //fn token_table(&self) -> Vec<Token> {

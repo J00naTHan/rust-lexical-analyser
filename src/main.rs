@@ -16,9 +16,9 @@ fn main() {
     println!("\nProcessing your code...");
 
     let input = input.trim().to_string();
-    let input: Vec<&str> = input.split("//n").collect();
+    let input = input.split("//n");
 
-    let lex = LexAnalyser::new(input);
+    let lex: Vec<&str> = LexAnalyser::new(input).collect();
 
     //let table = lex.token_table();
     //let list = lex.token_list();
